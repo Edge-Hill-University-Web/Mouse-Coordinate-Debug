@@ -1,0 +1,15 @@
+#header{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#game-container{
+    margin: 0 auto;
+    padding: 0;
+    background: #1f1f1f;
+    background-image: linear-gradient(rgba(202, 243, 202, 0.1) .1em, transparent .1em), 
+    linear-gradient(90deg, rgba(202, 243, 202, 0.1) .1em, 
+    transparent .1em);
+    background-size: 10px 10px;
+    
+}
