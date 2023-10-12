@@ -1,5 +1,10 @@
 class MouseDebug extends Phaser.Scene {
-    text;
+
+    constructor()
+    {
+        super();
+        this.text;
+    }
 
     preload() {
         this.load.image('mouse', 'assets/retromouse.png');
@@ -11,7 +16,6 @@ class MouseDebug extends Phaser.Scene {
     create() {
         const canvas = game.canvas;
         this.text = this.add.text(10, 10, '', { fill: '#00ff00' });
-
     }
 
     update() {
